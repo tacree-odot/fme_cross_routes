@@ -34,3 +34,6 @@ For purposes of this demonstration, the following assumptions about the data are
   - PDELTR80472**C
 - Line combining closed routes (ring geometries) that end up being multipart paths.  See the multipart_segments inspector
   - PDELMR81104**C 
+- Discontinuous Routes with duplicate measures at different locations.  The start of the gap is the same measure as that of the end of the gap
+  - TDELTR01819**C
+  - TDELTR00129**C
